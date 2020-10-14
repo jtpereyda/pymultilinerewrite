@@ -1,16 +1,3 @@
-# pymultilinerewrite
-
-Rewrite multiple console lines in Python.
-
-## Cross Platform
-
-Tested on Windows 10 and on Linux.
-
-## Demo Source
-
-[multiline.py](multiline.py)
-
-```python
 import time
 import sys
 import colorama
@@ -32,9 +19,3 @@ print("\033[A\033[A\033[ALine 1 the sequel")
 time.sleep(1)
 print()  # skip two lines so that lines 2 and 3 don't get overwritten by the next console prompt
 print()
-```
-
-## Demo Output
-
-```
-```
