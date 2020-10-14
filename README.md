@@ -36,5 +36,10 @@ print()
 
 ## Demo Output
 
-```
+```bash
+> python3 multiline.py
+Line 1 the sequel
+Line 2
+Line 3 the second sequel
+>
 ```
